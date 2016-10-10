@@ -1,1 +1,47 @@
-Cambiado 1
+Estado de cmabio en 
+el codigo
+
+  git log
+  git log -n 3
+  git log --oneline
+  git log stat
+  git log --author="Carlos"
+
+  //Cambios
+  git diff index.html
+  git diff rama1 rama2
+
+  git show e1afa0a44c028c9bf8533d7da9310d1dc8c954a8
+
+
+
+
+</pre>
+
+<h2>Descripción</h2>
+<ul>
+	<li><p>git status: Imprime el estado del area de trabajo en general (Cambios en los archivos)</p>
+	<li><p>git log : (sin argumentos) Muestra los commit y cambios realizados en el proyecto</p></li>
+	<ul>
+		<li><p>-n [numero entero]: Imprime los ultimos "n" numero de commits</p></li>
+		<li><p>--oneline : Imprime los commits en una sola linea</p></li>
+		<li><p>--stat: Imprime los datos de los cambios en los commit</p></li>
+		<li><p>--author="[Nombre del autor]": Imprime los commits realizados por un autor en especifico</p></li>
+	</ul>
+</ul>
+
+<br>
+<ul>
+	<li><p>git diff: La instruccion sin argumentos imprime todos los cambios realizados en los archivos</p>
+		<ul>
+			<li><p>[archivo]: Cambios realizados desde los ultimos cambios</p></li>
+		</ul>
+		<ul>
+			<li><p>[rama_1] [rama_2]: Muestra los cambios existentes entre las dos ramas</p></li>
+		</ul>
+	</li>
+</ul>
+
+<br>
+<ul>
+
